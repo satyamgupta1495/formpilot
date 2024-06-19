@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Form pilot",
+    "version": "1.0",
+    "description": "Automatically fill forms with saved or random data",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
