@@ -29,7 +29,7 @@ Form Pilot is a Chrome extension that automates form filling with saved or rando
 
 ## Chrome Web Store
 
-Check it out on the Chrome Web Store: [ Coming soon... ]
+Check it out on the Chrome Web Store: [HERE](https://chromewebstore.google.com/detail/form-pilot/lmneidijelbhccpphcphcfiaiiahjbim)
 
 
 ## Screenshots
